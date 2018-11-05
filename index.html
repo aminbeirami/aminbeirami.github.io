@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+     <title>Amin Beirami</title>
+
+     <style type="text/css">
+        * { margin: 0; padding: 0; }
+        body { font: 16px Helvetica, Sans-Serif; line-height: 24px; background: url(images/noise.jpg); }
+        .clear { clear: both; }
+        #page-wrap { width: 800px; margin: 40px auto 60px; }
+        #pic { float: right; margin: -30px 0 0 0; }
+        h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; }
+        h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; display: list-item; list-style-type: disc;list-style-position: inside;}
+        h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
+        p { margin: 0 0 16px 0; }
+        a { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
+        a:hover { border-bottom-style: solid; color: black; }
+        ul { margin: 0 0 32px 17px; }
+        #objective { width: 500px; float: left; }
+        #objective p { font-family: Georgia, Serif; font-style: italic; color: #666; }
+        dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 430px; border-right: 1px solid #999; }
+        dd { width: 600px; float: right; }
+        dd.clear { float: none; margin: 0; height: 15px; }
+        figure { display: block; margin-left: auto; margin-right: auto;}
+        figcaption {font-style: italic;text-align: center;}
+     </style>
+</head>
+
+<body>
+
+    <div id="page-wrap">
+    
+        <img src="images/personal_photo.png" alt="Photo of Amin" id="pic" />
+    
+        <div id="contact-info" class="vcard">
+        
+            <!-- Microformats! -->
+        
+            <h1 class="fn">Amin Beirami</h1>
+        
+            <p>
+                Cell: <span class="tel">(+1) 289-943-4731</span><br />
+                Email: <a class="email" href="mailto:mohammadamin.beirami@uoit.net">mohammadamin.beirami@uoit.net</a>
+            </p>
+        </div>
+                
+        <div id="objective">
+            <p>
+                Hi I am Amin Beirami, data scientist, computer programmer and control engineer, currently living in 
+                Oshawa, Ontario, Canada. I have a masters in Computer Science from Canada and a master in Control Engineering
+                from South Korea.
+
+            </p>
+        </div>
+        
+        <div class="clear"></div>
+        
+        <dl>
+            <dd class="clear"></dd>
+            
+            <dt>Skills</dt>
+            <dd>
+                <h2>Computer Programming </h2>
+                <p>
+                    <strong>Languages I have programmed with:</strong> PYTHON, C, C++, C#.NET, JAVA, JAVASCRIPT, SQL, PL/PGSQL, ASP.NET<br/>
+                </p>
+
+               <h2>Data Science</h2>
+                <p>   
+                   <strong>Tools I have utilized:</strong> NUMPY, PANDAS, GCSQL, POSTGRESQL, MYSQL, SQLITE, APACHE SPARK, D3.JS, DASH, PLOTLY, MACHINE LEARINING (REGRESSION, CLASSIFICATION, CLUSTERING)<br/>
+                </p>
+               <h2>Control Engineering</h2>
+                <p>   
+                   <strong>Subjects I'm good at:</strong> LINEAR AND NONLINEAR CONTROL, SIMULATION (MATLAB,SIMULINK,LABVIEW), EMBEDDED SYSTEMS PROGRAMMING, CONTROL OPTIMIZATION <br/>
+                </p>
+               <h2>Software</h2>
+                <p>   
+                   <strong>Software I'm comfortable with:</strong> MATLAB/SIMULINK, MICROSOFT VISUAL STUDIO, ANDROID STUDIO, UNITY 3D, GLOBAL MAPPER, PHOTOSHOP, MS OFFICE<br/>
+                </p>
+            </dd>
+            
+            <dd class="clear"></dd>
+            
+            <dd class="clear"></dd>
+            
+            <dt>Project 1</dt>
+            <dd> 
+            <h2><a href="https://github.com/aminbeirami/movieRatingWebsite" target="_blank">Truted Relational Temporal Database Using Blockchain With Optimal Table Snapshots For Materialization.</a></h2>
+            <p>
+                <strong>Description:</strong> I developed a blockchain based database based on a relational database management system (RDBMS). The database guarantees authenticity of the stored records using immutable and verifiable digital signatures. The database supports query evaluation over the entire timeline of the transaction log. To support efficient query evaluation, I utilized materialized snapshots at selected timestamps.  I evaluated three different algorithm to compute the best timestamps to place multiple snapshots so that the overall query load can be evaluated with minimal computation. Part of the work <a href="https://ieeexplore.ieee.org/document/8457764" target="_blank">published in IEEE 2018 Bigdata Congress in San Francisco.</a> <br/> I presented the work in computer science seminar at the University of Ontario Institue of Technology. <a href="files/seminar-slides.pdf" target="_blank">Here is the full system presentation slides. </a>
+            </p>
+            <p>
+                <strong>Technologies and tools that I used:</strong> Postgresql, Python Flask, Machine Learning (K-Means clustering, K-nearest neighbors), Cryptography.
+            </p>
+            <p>
+                <strong>Programming Languages that I used:</strong> Python, PL/pgSQL, SQL </p> 
+            </dd>
+
+            <dd class="clear"></dd>
+            <dd class="clear"></dd>
+
+            <dt>Project 2</dt>
+            <dd> 
+            <h2>Autopilot System For Leisure Boats Based on Android Platform and NMEA Network.</h2>
+            <p>
+                <strong>Description:</strong> I developed an autopilot system capable of manually and automatically navigating a leisure boat. The user interface implemented on an Android device and the controller is implemented on an embedded system with ARM Cortex M7 processor. In this project, the android device collects data from boat’s heading sensor and Rudder angle indicator through NMEA 0183 network and sends information to the controller via NMEA 2000 network. The controller receives information, makes decision and triggers the rudder system to fulfill the order. <br/>
+                As part of the project, I first simulated the control strategy in matlab/Simulink, then developed the embedded systems, a hydraulic rudder actuation system and an Android application to simulate the process. Then the developed system was tested and passed successfully on a real leisure boat.<br/>
+                <a href="http://www.jkosme.or.kr/_common/do.php?a=full&b=72&bidx=367&aidx=4629" target="_blank"> Read my published work in Korean Society of Marine Engineering Journal.</a><br/>
+                <a href="http://repository.kmou.ac.kr/bitstream/2014.oak/8142/1/000002174186.pdf" target="_blank"> Read my master's thesis on this project. </a>
+            </p>
+            <p>
+                <strong>Technologies and tools that I used:</strong> Android Studio, Matlab/Simulink, ARM Cortex M7, NMEA 2000 and 0183, Heading sensor, Hydraulic rudder actuator
+            </p>
+            <div>
+                <strong>Programming Languages that I used:</strong> JAVA, C++ </p>
+                <figure>
+                    <img src="images/autopilot_project.jpg" width=100%>
+                    <figcaption>The autopilot system project</figcaption>
+                </figure>
+            </dd>
+
+            <dd class="clear"></dd>
+            <dd class="clear"></dd>
+            
+            <dt>Project 3</dt>
+            <dd> 
+            <h2>3D Maritime Simulator with 2D Maps Capable of Simulating MSPs of E-Navigation</h2>
+            <p>
+                <strong>Description:</strong> Me and 2 other colleagues developed a 3D maritime simulator using Unity 3D. The simulator simulates a real-world environment (Busan Port), gives E-navigation defined information and feedbacks to each vessel navigating in this area and evaluates the effectiveness of these information for a safer navigation. The 3D environment has the option of simulating multiple sea states and weather. We also developed 3 different 2D maps: scenario editor, ECDIS and Radar based on real navigation maps overlaid on Google map to define a scenario and see the location of vessels on the map. The 3D environment was developed using NASA's SRTM v4.1 digital elevation chart database and the 3D bathymetric terrain implemented based on the data extracted from ECDIS maps.<br/>
+                My role as a developer in this project was to write codes in C# to navigate the vessels in the 3D scene and apply real-world physics to the vessels, develope the 2D maps (ECDIS and RADAR) and implement the 3D terrains and objects in the environment. <br/>
+                <a href="http://www.jkosme.or.kr/_PR/view/?aidx=4628&bidx=367" target="_blank">Read one of our papers in Korean Society of Marine Engineering</a>
+            </p>
+            <p>
+                <strong>Technologies and tools that I used:</strong> Unity 3D, Terraland assets, Sundog assets, NASA's elevation maps, ECDIS maps, Google maps, Global mapper, Google Sketchup, 3D Max.
+            </p>
+            <p>
+                <strong>Programming Languages that I used:</strong> C#, JAVASCRIPT</p>
+                <figure>
+                    <img src="images/simulator_project.jpg" width=100%>
+                    <figcaption>The simulator project</figcaption>
+                </figure>
+            </dd>
+            
+            <dd class="clear"></dd>
+        </dl>
+        
+        <div class="clear"></div>
+    
+    </div>
+
+</body>
+
+</html>
